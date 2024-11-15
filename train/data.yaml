@@ -1,0 +1,13 @@
+train: ./train/train/images
+val: ./train/valid/images
+test: ./train/test/images
+
+nc: 35
+names: ['car', 'carmotorcycle', 'childrencross', 'diverge', 'doublebendleft', 'doublebendright', 'hump', 'leftbend', 'leftmerge', 'lightson', 'max100', 'max110', 'max40', 'max50', 'max60', 'max70', 'max80', 'max90', 'min60', 'nocar', 'noentry', 'nopark', 'nostop', 'noturnleft', 'noturnleftright', 'noturnright', 'nouturn', 'pedestriancross', 'rightbend', 'rightmerge', 'signalahead', 'slow', 'speedcamera', 'thisway', 'twostageturn']
+
+roboflow:
+  workspace: jetson-nano-k5wqi
+  project: traffic-signal-r77uo
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jetson-nano-k5wqi/traffic-signal-r77uo/dataset/10
